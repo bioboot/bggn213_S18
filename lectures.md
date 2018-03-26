@@ -5,50 +5,50 @@ menu: true
 order: 2
 ---
 
-All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Map](https://goo.gl/maps/yPnFEypdSCM2)). Clicking on the class topics below will take you to corresponding lecture notes, homework assignments, pre-class video screen-casts and required reading material.   
+All Lectures are Wed/Fri 1:00-4:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Map](https://goo.gl/maps/yPnFEypdSCM2)). Clicking on the class topics below will take you to corresponding lecture notes, homework assignments, pre-class video screen-casts and required reading material.   
 
 
 | \#  | Date | **Topics for Spring 2018** |
 | :---: | -------- | :--- |
-| 1 | Tu, 04/03 | [**Welcome to Bioinformatics**](#1)  <br> Course introduction, Leaning goals &amp; expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Hands on with major Bioinformatics databases and key online NCBI and EBI resources  | 
+| 1 | Wed, 04/04 | [**Welcome to Bioinformatics**](#1)  <br> Course introduction, Leaning goals &amp; expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Hands on with major Bioinformatics databases and key online NCBI and EBI resources  | 
 |   |   |   |
-| 2 | Th, 04/05 | [**Sequence alignment fundamentals, algorithms and applications**](#2) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches, Hands on with dot plots, Needleman-Wunsch and BLAST algorithms highlighting their utility and limitations | 
+| 2 | Fri, 04/06 | [**Sequence alignment fundamentals, algorithms and applications**](#2) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches, Hands on with dot plots, Needleman-Wunsch and BLAST algorithms highlighting their utility and limitations | 
 |   |   |   |
-| 3 | Tu, 04/10 | [**Advanced sequence alignment and database searching**](#3) <br> Detecting remote sequence similarity, Database searching beyond BLAST, Substitution matrices, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons | 
+| 3 | Wed, 04/11 | [**Advanced sequence alignment and database searching**](#3) <br> Detecting remote sequence similarity, Database searching beyond BLAST, Substitution matrices, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons | 
 |   |   |   |
-| 4 | Th, 04/12 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console  | 
+| 4 | Fri, 04/13 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console  | 
 |   |   |   |
-| 5 | Tu, 04/17 | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Using and customizing base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot and rgl | 
+| 5 | Wed, 04/18 | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Using and customizing base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot and rgl | 
 |   |   |   |
-| 6 | Th, 04/19 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
+| 6 | Fri, 04/20 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
 |   |   |   |
-| 7 | Tu, 04/24 | [**Bioinformatics R packages from CRAN and BioConductor**](#7) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data | 
+| 7 | Wed, 04/25 | [**Bioinformatics R packages from CRAN and BioConductor**](#7) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data | 
 |   |   |   |
-| 8 | Th, 04/26 | [**Introduction to Machine Learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)  | 
+| 8 | Fri, 04/27 | [**Introduction to Machine Learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)  | 
 |   |   |   |
-| 9 | Tu, 05/01 | [**Unsupervised Learning Mini-Project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets | 
+| 9 | Wed, 05/02 | [**Unsupervised Learning Mini-Project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets | 
 |   |   |   |
-| 10 | Th, 05/03 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  | 
+| 10 | Fri, 05/04 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  | 
 |   |   |   |
-| 11 | Tu, 05/08 | [**Structural Bioinformatics (Part 1)**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure | 
+| 11 | Wed, 05/09 | [**Structural Bioinformatics (Part 1)**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure | 
 |   |   |   |
-| 12 | Th, 05/10 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
+| 12 | Fri, 05/11 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
 |   |   |   |
-| 13 | Tu, 05/15 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2 | 
+| 13 | Wed, 05/16 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2 | 
 |   |   |   |
-| 14 | Th, 05/17 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today!| 
+| 14 | Fri, 05/18 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today!| 
 |   |   |   |
-| 15 | Tu, 05/22 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
+| 15 | Wed, 05/23 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
 |   |   |   |
-| 16 | Th, 05/24 | [**Essential statistics for bioinformatics**](#16) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications.  | 
+| 16 | Fri, 05/25 | [**Essential statistics for bioinformatics**](#16) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications.  | 
 |   |   |   |
-| 17 | Tu, 05/29 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. | 
+| 17 | Wed, 05/30 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. | 
 |   |   |   |
-| 18 | Th, 05/31 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
+| 18 | Fri, 06/01 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
 |   |   |   |
-| 19 | Tu, 06/05 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!** | 
+| 19 | Wed, 06/06 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!** | 
 |   |   |   |
-| 20 | Th, 06/07 | [**Final exam!**](#20)  | 
+| 20 | Fri, 06/08 | [**Final exam!**](#20)  | 
 
 
 <br>
@@ -57,7 +57,7 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 # Class material
 
 <a name="1"></a>
-## 1: Welcome to Bioinformatics and introduction to Bioinformatics databases and key online resources 
+## 1: Welcome to Bioinformatics and introduction to key online resources 
 
 **Topics**:  
 Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student 30-second introductions, Introduction to NCBI & EBI resources for the molecular domain of bioinformatics, Hands-on session using NCBI-BLAST, Entrez, GENE, UniProt, Muscle and PDB bioinformatics tools and databases. 
@@ -66,19 +66,19 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Understand course scope, expectations, logistics and [ethics code]({{ site.baseurl }}/ethics/).  
 - Understand the increasing necessity for computation in modern life sciences research.  
 - Get introduced to how bioinformatics is practiced.  
-- Complete the [pre-course questionnaire](https://goo.gl/forms/n4NAf1CwCZfgjICs2).  
+- Complete the [pre-course questionnaire](https://goo.gl/forms/JriQD5zlJZpzQQoi2).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
 - The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst actively investigating the molecular basis of several common human disease.
 
 <!-- MAKE PRE-COURSE QUESTIONNAIRE and UPDATE LECTRUE SLIDES -->
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state},      
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BIMM143_W18.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://tinyurl.com/bimm143-01){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213-small.pdf){:.no-push-state},      
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BGGN213_S18.pdf){:.no-push-state}  
+- Feedback: [Muddy Point Assessment](https://tinyurl.com/BGGN213-01){:.no-push-state},  
 - Feedback: [Results](https://docs.google.com/forms/d/e/1FAIpQLSdYH9G5gIVS2LawpMuOzAqgFo5f3NK4BaiPY9-O71FNEd-ycw/viewanalytics){:.no-push-state}.  
 
-- Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_W18_syllabus.pdf){:.no-push-state}  
+- Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_S18_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
@@ -118,7 +118,7 @@ Some basic bioinformatics can be done online or with downloaded tools. However, 
 ## 2:  Sequence alignment fundamentals, algorithms and applications
 
 **Topics**:  
-Further coverage of *major NCBI & EBI resources* for the molecular domain of bioinformatics with a focus on GenBank, UniProt, Entrez and Gene Ontology. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}) and being able to judge their utility and quality is important. *Sequence Alignment and Database Searching*:
+Further coverage of *major NCBI & EBI resources* for the molecular domain of bioinformatics with a focus on GenBank, UniProt, Entrez and Gene Ontology. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_BGGN213.pdf){:.no-push-state}) and being able to judge their utility and quality is important. *Sequence Alignment and Database Searching*:
 Homology, Sequence similarity, Local and global alignment, Heuristic approaches, Database searching with BLAST, E-values and evaluating alignment scores and statistics.
  
 
@@ -131,16 +131,16 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - The goals of the hands-on session are to explore the principles underlying the computational tools that can be used to compute and evaluate sequence alignments. 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143_W18-small.pdf){:.no-push-state},    
-- [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}  
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143_W18-lab.pdf){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-small.pdf){:.no-push-state},    
+- [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BGGN213.pdf){:.no-push-state}  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/ngtYuVEQXiUYdD2H3){:.no-push-state}.   
 - Feedback: [Results](hhttps://docs.google.com/forms/d/1E9Mn3oaxzoojyFWO72l7Qn35nXBWAvenr9XUrwu45DE/edit#responses){:.no-push-state}.  
 
 
 **Homework**:   
 - [Quiz Questions](https://goo.gl/forms/48zDkPl1tZ1eMVtT2){:.no-push-state},  
-- [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BIMM143_homework.pdf){:.no-push-state},  
+- [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BGGN213_homework.pdf){:.no-push-state},  
 
 
 **Readings**:    
@@ -165,8 +165,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 **Material**:   
  
- - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state},    
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143_W18-lab.pdf){:.no-push-state}  
+ - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BGGN213-small.pdf){:.no-push-state},    
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BGGN213_S18-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/6Kx5KWtFOyqJJyYB2){:.no-push-state}.   
 
 **Homework**:   
@@ -189,7 +189,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
  
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BGGN213-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section 1]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/yS24ed75GO7ipT903){:.no-push-state},  
 - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScfn86ieqHmHGzQs8qGOf_Y1tzB2_uRcaFDlBnxKYi3Tnzupg/viewanalytics?usp=form_confirm){:.no-push-state}.   
@@ -216,10 +216,10 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-small.pdf){:.no-push-state},  
 - Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/05_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/05_draw_lecture_plots2/){:.no-push-state},  
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state},  
-- Example data for hands-on sections [bimm143_05_rstats.zip]({{ site.baseurl }}/class-material/bimm143_05_rstats.zip){:.no-push-state},  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BGGN213_lab.pdf){:.no-push-state},  
+- Example data for hands-on sections [BGGN213_05_rstats.zip]({{ site.baseurl }}/class-material/BGGN213_05_rstats.zip){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/TReoCLQvYhP2d0KY2){:.no-push-state},  
 - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSe4OaFIL7ibLU38ifwM6GWJE2adzU3nEe5KY9zXhQufkgTK5Q/viewanalytics){:.no-push-state}.    
  
@@ -244,15 +244,15 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Be able to follow a step by step process of going from a working code snippet to a more robust function.
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-small.pdf){:.no-push-state},
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture6-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture6-BGGN213-small.pdf){:.no-push-state},
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BIMM143_W18.pdf){:.no-push-state},  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BGGN213_S18.pdf){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state},  
 - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.  
 
 
 **Homework**:   
-- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
+- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BGGN213_S18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Fri, 05/08**).    
 - The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.   
  
 
@@ -271,7 +271,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Be able to write and (re)use basic R scripts to aid with reproducibility.  
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BGGN213-small.pdf){:.no-push-state},  
 - [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1sFN7u8h2Sz0DwC-wscwJz3kkzf7OOP82oQR4jubvfZQ/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/lghN1iI2fjfwxpvq2){:.no-push-state}.      
@@ -279,7 +279,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  
  
 **Homework**:   
- See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
+ See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BGGN213_S18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Fri, 05/08**).    
 - The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.   
  
 
@@ -305,7 +305,7 @@ Practical considerations and best practices for the analysis of high dimensional
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture08-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture08-BGGN213-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/UK_food_pca//){:.no-push-state}  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
@@ -328,7 +328,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Be able to apply and test combinations of PCA, k-means and hierarchical clustering to high dimensional datasets and critically review results.
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143_small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BGGN213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BGGN213_small.pdf){:.no-push-state},  
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lecture9_lab/){:.no-push-state}  
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}.   
 - Bio3D PCA App: [http://bio3d.ucsd.edu](http://bio3d.ucsd.edu){:.no-push-state}.   
@@ -354,7 +354,7 @@ Late responses will not be accepted under any circumstances.
 ## Bonus: Hands-on with Git  
 Today’s lecture and hands-on sessions with introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BGGN213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BGGN213_small.pdf){:.no-push-state},  
 - Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state}  
 
 
@@ -374,8 +374,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143_small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BIMM143_W18.pdf){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213_small.pdf){:.no-push-state},  
+- Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BGGN213_S18.pdf){:.no-push-state}  
 - Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/elweVfSycVIt8Ecd2){:.no-push-state}.  
 
@@ -398,8 +398,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 
 **Material**:   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture12-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture12-BIMM143_small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for *In silico* drug docking]({{ site.baseurl }}/class-material/lecture12-BIMM143_W18.pdf){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture12-BGGN213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture12-BGGN213_small.pdf){:.no-push-state},  
+- Lab: [Hands-on section worksheet for *In silico* drug docking]({{ site.baseurl }}/class-material/lecture12-BGGN213_S18.pdf){:.no-push-state}  
 - Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state},  [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
 - Optional backup files: [1]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [2]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [3]({{ site.baseurl }}/class-material/indinavir.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/UeIzhvgXFHmecVda2){:.no-push-state}  
@@ -423,8 +423,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143_W18-small.pdf){:.no-push-state},
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture13-BIMM143_W18-lab.pdf){:.no-push-state},
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture13_BGGN213_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture13_BGGN213_S18-small.pdf){:.no-push-state},
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture13-BGGN213_S18-lab.pdf){:.no-push-state},
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r){:.no-push-state}.
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}.  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/EcfQU3yG4x0uIaLw2){:.no-push-state}.  
@@ -443,7 +443,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <br>
 
 ## 14: Transcriptomics and the analysis of RNA-Seq data
-**Topics**: Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depth, DESeq2 analysis.
+**Topics**: Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depFri, DESeq2 analysis.
 
 **Goals**:
 - Given an RNA-Seq dataset, find the set of significantly differentially expressed genes and their annotations.
@@ -452,9 +452,9 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Be able to extract, explore, visualize and export results.
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143_W18-small.pdf){:.no-push-state}.
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14_BGGN213_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14_BGGN213_S18-small.pdf){:.no-push-state}.
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state} instructions.
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab/){:.no-push-state}
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_S18-lab/){:.no-push-state}
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.
 - Muddy point assessment
 
@@ -478,8 +478,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Material**:   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143_W18-small.pdf){:.no-push-state}.  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture15_BIMM143_W18/){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture15_BGGN213_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture15_BGGN213_S18-small.pdf){:.no-push-state}.  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture15_BGGN213_S18/){:.no-push-state}  
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
 - Muddy point assessment
  
@@ -502,7 +502,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 **Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask! Extensive R examples and applications.
 
 **Material**:   
-- Lecture Slides: [PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143_W18-large.pdf){:.no-push-state}.  
+- Lecture Slides: [PDF]({{ site.baseurl }}/class-material/lecture16_BGGN213_S18-large.pdf){:.no-push-state}.  
 - Data files: 
   - [RNA-seq_excitatory_neurons_rep1_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_excitatory_neurons_rep1_TPM_by_names.tsv){:.no-push-state}, 
   - [RNA-seq_excitatory_neurons_rep2_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_excitatory_neurons_rep2_TPM_by_names.tsv){:.no-push-state}, 
@@ -530,9 +530,9 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Appreciate that the igraph R package has extensive network analysis functionality beyond that in Cytoscape and that the R bioconductor package RCy3 package allows us to bring networks and associated data from R to Cytoscape so we can have the best of both worlds. 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18-small.pdf){:.no-push-state}.  
-- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18_lab1.pdf){:.no-push-state}  
-- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18/){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18-small.pdf){:.no-push-state}.  
+- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_lab1.pdf){:.no-push-state}  
+- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18/){:.no-push-state}  
 - Data files:  
   - [galFiltered.sif]({{ site.baseurl }}/class-material/galFiltered.sif){:.no-push-state},  
   - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
@@ -553,9 +553,9 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 **Topics**: Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects; NCI Genomic Data Commons; What has been learned from genome sequencing of cancer? **Immunoinformatics, immunotherapy  and cancer**; Using genomics and bioinformatics to harness a patient’s own immune system to fight cancer. Implications for the development of personalized medicine.
 
 **Material**: 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W18-small.pdf){:.no-push-state}.  
-- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BIMM143_W18/){:.no-push-state}  
-- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BIMM143_W18/){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Lecture18_BGGN213_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/Lecture18_BGGN213_S18-small.pdf){:.no-push-state}.  
+- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BGGN213_S18/){:.no-push-state}  
+- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BGGN213_S18/){:.no-push-state}  
 - Data files:  
   - [lecture18_sequences.fa]({{ site.baseurl }}/class-material/lecture18_sequences.fa){:.no-push-state},  
 - Solutions:  
@@ -571,9 +571,9 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 ## 19: Course summary  
 **Topics**: Summary of learning goals, Student course evaluation time and exam preparation; Find a gene assignment due.  Open study.  
   
-Hand-out: [**Exam guidlines, topics, and example questions**]({{ site.baseurl }}/class-material/BIMM143_exam_guidlines.pdf){:.no-push-state}
+Hand-out: [**Exam guidlines, topics, and example questions**]({{ site.baseurl }}/class-material/BGGN213_exam_guidlines.pdf){:.no-push-state}
 
-Ether-pad: <!-- [**Feedback**](https://etherpad.net/p/bimm143){:.no-push-state} -->
+Ether-pad: <!-- [**Feedback**](https://etherpad.net/p/BGGN213){:.no-push-state} -->
   
   
 <hr>

@@ -1,6 +1,6 @@
 ---
 layout: welcome
-title: Bioinformatics <br> (BIMM 143, Spring 2018)
+title: Bioinformatics <br> (BGGN 213, Spring 2018)
 selected_projects:
   - _projects/welcome-screencast.md
   - _projects/using-jetstream-for-bioinformatics.md
@@ -10,31 +10,32 @@ more_projects: projects.md
 ## Overview
 Bioinformatics - the application of computational and analytical methods to biological problems - is a rapidly maturing field that is driving the collection, analysis, and interpretation of the avalanche of data in modern life sciences and medical research.  
 
-This upper division 4-unit course is designed for biology majors and provides an introduction to the principles and practical approaches of bioinformatics as applied to genes and proteins.  
+This course is designed for bioscience graduate students and provides a hands-on introduction to the computer-based analysis of genomic and biomolecular data.
 
-An integrated lecture/lab structure with hands-on exercises and small-scale projects emphasizes modern developments in genomics and proteomics. A detailed listing of all [lecture topics]({{ site.baseurl }}/lectures/) is available and includes the major areas of: 
-
-- Genomic and biomolecular bioinformatic resources, 
-- Advances in sequencing technologies, 
+Major topics include: 
+- Genomic and biomolecular bioinformatic resources,  
 - Genome informatics, 
-- Structural informatics, 
-- Transcriptomics, and 
+- Structural informatics,  
+- Transcriptomics,
+- UNIX for bioinformatics, and 
 - Bioinformatics data analysis with R.  
 
- Students completing this course will be able to apply leading existing bioinformatics tools to address biological questions. Our broader goal is to point towards perspectives that bioinformatics can expose for the integration and analysis of complex biological information. For further details please see our complete list of [course objectives and specific learning goals]({{ site.baseurl }}/goals/).
- 
+A detailed listing of all [lecture topics]({{ site.baseurl }}/lectures/) is available and includes a guest lecture from a genomic scientist at Illumina Inc., Synthetic Genomics Inc., Human Longevity Inc., or the La Jolla Institute for Allergy and Immunology subject to student voting preferences. 
+
+
+Students completing this course will be able to evaluate new genomic and biomolecular information using existing software and gain experience in combining bioinformatic approaches to answer specific biological questions. Our broader goal is to point towards perspectives that bioinformatics can expose for the integration and analysis of complex biological information. For further details please see our complete list of [course objectives and specific learning goals]({{ site.baseurl }}/goals/).  
 
 ## Audience: 
-Biology majors with upper division standing. A familiarity with basic biomedical concepts is essential (students should have successfully completed BILD1 and BILD4 or BIMM 101). No formal programming training or high level mathematical skills are required.  
+Bioscience graduate students and others familiar with basic molecular biology concepts. No formal programming training or high level mathematical skills are required.  
 
 ## Accessibility:  
 We are committed to making this course accessible to everybody. Please contact Prof. Grant <bigrant@ucsd.edu> if you have questions regarding room accessibility.  
 
 ## Requirements: 
-To fully participate in this course students will be expected to use their own laptop computers with specific freely available [software installed]({{ site.baseurl }}/setup/). A limited number of classroom computers are also available should the need arise. Participants must bring a laptop with specific [software installed]({{ site.baseurl }}/setup/).  
+To fully participate in this course students will be expected to use their own laptop computers with specific freely available [software installed]({{ site.baseurl }}/setup/). A limited number of classroom computers are also available should the need arise.    
 
 ## Schedule:  
-Lectures are on Tuesday and Thursday at 9:00 - 12:00 pm in Warren Lecture Hall 2015 (WLH 2015) [Map](https://goo.gl/maps/yPnFEypdSCM2){:.no-push-state} (UCSD Map Bldg #625).  These lectures will include hands-on sessions requiring both individual and small group based computational work. A detailed [lecture schedule]({{ site.baseurl }}/lectures/) with class related material is provided online.  
+Lectures are on Wednesday and Friday at 1:00 - 4:00 pm in Warren Lecture Hall 2015 (WLH 2015) [Map](https://goo.gl/maps/yPnFEypdSCM2){:.no-push-state} (UCSD Map Bldg #625).  These lectures will include hands-on sessions requiring both individual and small group based computational work. A detailed [lecture schedule]({{ site.baseurl }}/lectures/) with class related material is provided online.  
 
 ## Class announcements:  
 All announcements regarding the course will be by email to your UCSD address.  
@@ -50,11 +51,11 @@ If you can't make either of these please email for a time and we will make it ha
 There is no textbook for the course. Lecture notes, homework assignments, grading criteria, pre-class screen casts and required reading material will be available from this public facing course website.  
 
 ## Syllabus:  
-A detailed [syllabus]({{ site.baseurl }}/class-material/BIMM143_S18_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
+A detailed [syllabus]({{ site.baseurl }}/class-material/BGGN213_S18_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
 
 ## Surveys:
 Please help us improve this course by completing by completing these surveys before and after the course. Thank you!
-* [Pre-course questionnaire](https://goo.gl/forms/BPWFRDYw2zIXEYGc2)  
+* [Pre-course questionnaire](https://goo.gl/forms/JriQD5zlJZpzQQoi2)  
 * [Post-course questionnaire]({{ site.baseurl }}/404/)  
 
 ## Acknowledgments:
