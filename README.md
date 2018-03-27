@@ -1,9 +1,9 @@
 # Foundations of Bioinformatics course website  
 
-Author and course director: Barry J. Grant <bjgrant@ucsd.edu>
+Author and course director: Barry J. Grant (<bjgrant@ucsd.edu>)
 
 Foundations of Bioinformatics (BGGN-213) is a UCSD bioscience graduate course run in the Spring quarter of 2018.  
-For full detailes see: https://bioboot.github.io/bggn213_S18/ 
+For full detailes see: **https://bioboot.github.io/bggn213_S18/** 
 
 
 **Overview:** This is a simple [jekell based static site](http://jekyllrb.com/docs/home/). To view locally on your own machine (i.e. before pushing or submitting a pull 
