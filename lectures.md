@@ -132,14 +132,14 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-small.pdf){:.no-push-state},    
-- [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BGGN213.pdf){:.no-push-state}  
+- [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-lab.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://goo.gl/forms/ngtYuVEQXiUYdD2H3){:.no-push-state}.   
+- Feedback: [Muddy Point Assessment](https://goo.gl/forms/3IlHzdNfTLCDVlGN2){:.no-push-state}.   
 <!-- - Feedback: [Results](hhttps://docs.google.com/forms/d/1E9Mn3oaxzoojyFWO72l7Qn35nXBWAvenr9XUrwu45DE/edit#responses){:.no-push-state}. --> 
 
 
 **Homework**:   
-- [Quiz Questions](https://goo.gl/forms/48zDkPl1tZ1eMVtT2){:.no-push-state},  
+- [Quiz Questions](https://goo.gl/forms/Y7dKXIKfkwhm5cG42){:.no-push-state},  
 - [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BGGN213_homework.pdf){:.no-push-state},  
 
 
