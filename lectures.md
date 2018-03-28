@@ -73,7 +73,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 <!-- MAKE PRE-COURSE QUESTIONNAIRE and UPDATE LECTRUE SLIDES -->
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213-small.pdf){:.no-push-state},      
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_S18_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_S18_small.pdf){:.no-push-state},      
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BGGN213_S18.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/9ysHwppQgxMUx70O2){:.no-push-state},  
 <!-- - Feedback: [Results](https://docs.google.com/forms/d/e/1FAIpQLSdYH9G5gIVS2LawpMuOzAqgFo5f3NK4BaiPY9-O71FNEd-ycw/viewanalytics){:.no-push-state}.  -->
