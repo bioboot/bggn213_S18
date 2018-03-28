@@ -75,14 +75,14 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213-small.pdf){:.no-push-state},      
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BGGN213_S18.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://tinyurl.com/BGGN213-01){:.no-push-state},  
-- Feedback: [Results](https://docs.google.com/forms/d/e/1FAIpQLSdYH9G5gIVS2LawpMuOzAqgFo5f3NK4BaiPY9-O71FNEd-ycw/viewanalytics){:.no-push-state}.  
+- Feedback: [Muddy Point Assessment](https://goo.gl/forms/9ysHwppQgxMUx70O2){:.no-push-state},  
+<!-- - Feedback: [Results](https://docs.google.com/forms/d/e/1FAIpQLSdYH9G5gIVS2LawpMuOzAqgFo5f3NK4BaiPY9-O71FNEd-ycw/viewanalytics){:.no-push-state}.  -->
 
 - Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_S18_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
-- [Questions](https://goo.gl/forms/uy64Mues1prtAEE13),  
+- [Questions](https://goo.gl/forms/HVy4pVhOLSxKtMv53),  
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
