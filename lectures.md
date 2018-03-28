@@ -118,7 +118,7 @@ Some basic bioinformatics can be done online or with downloaded tools. However, 
 ## 2:  Sequence alignment fundamentals, algorithms and applications
 
 **Topics**:  
-Further coverage of *major NCBI & EBI resources* for the molecular domain of bioinformatics with a focus on GenBank, UniProt, Entrez and Gene Ontology. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_BGGN213.pdf){:.no-push-state}) and being able to judge their utility and quality is important. *Sequence Alignment and Database Searching*:
+Further coverage of *major NCBI & EBI resources* for the molecular domain of bioinformatics with a focus on GenBank, UniProt, Entrez and Gene Ontology. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}) and being able to judge their utility and quality is important. *Sequence Alignment and Database Searching*:
 Homology, Sequence similarity, Local and global alignment, Heuristic approaches, Database searching with BLAST, E-values and evaluating alignment scores and statistics.
  
 
@@ -131,8 +131,8 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - The goals of the hands-on session are to explore the principles underlying the computational tools that can be used to compute and evaluate sequence alignments. 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-small.pdf){:.no-push-state},    
-- [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18_small.pdf){:.no-push-state},    
+- Handout: [Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/3IlHzdNfTLCDVlGN2){:.no-push-state}.   
 <!-- - Feedback: [Results](hhttps://docs.google.com/forms/d/1E9Mn3oaxzoojyFWO72l7Qn35nXBWAvenr9XUrwu45DE/edit#responses){:.no-push-state}. --> 
