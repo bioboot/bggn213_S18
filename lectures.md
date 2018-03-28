@@ -44,7 +44,7 @@ All Lectures are Wed/Fri 1:00-4:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([M
 |   |   |   |
 | 17 | Wed, 05/30 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. | 
 |   |   |   |
-| 18 | Fri, 06/01 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
+| 18 | Fri, 06/01 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due on We 06/06!  | 
 |   |   |   |
 | 19 | Wed, 06/06 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!** | 
 |   |   |   |
@@ -135,7 +135,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BGGN213.pdf){:.no-push-state}  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/ngtYuVEQXiUYdD2H3){:.no-push-state}.   
-- Feedback: [Results](hhttps://docs.google.com/forms/d/1E9Mn3oaxzoojyFWO72l7Qn35nXBWAvenr9XUrwu45DE/edit#responses){:.no-push-state}.  
+<!-- - Feedback: [Results](hhttps://docs.google.com/forms/d/1E9Mn3oaxzoojyFWO72l7Qn35nXBWAvenr9XUrwu45DE/edit#responses){:.no-push-state}. --> 
 
 
 **Homework**:   
@@ -192,7 +192,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BGGN213-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section 1]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/yS24ed75GO7ipT903){:.no-push-state},  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScfn86ieqHmHGzQs8qGOf_Y1tzB2_uRcaFDlBnxKYi3Tnzupg/viewanalytics?usp=form_confirm){:.no-push-state}.   
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScfn86ieqHmHGzQs8qGOf_Y1tzB2_uRcaFDlBnxKYi3Tnzupg/viewanalytics?usp=form_confirm){:.no-push-state}. -->  
 
  
 **Homework**:   
@@ -221,7 +221,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BGGN213_lab.pdf){:.no-push-state},  
 - Example data for hands-on sections [BGGN213_05_rstats.zip]({{ site.baseurl }}/class-material/BGGN213_05_rstats.zip){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/TReoCLQvYhP2d0KY2){:.no-push-state},  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSe4OaFIL7ibLU38ifwM6GWJE2adzU3nEe5KY9zXhQufkgTK5Q/viewanalytics){:.no-push-state}.    
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSe4OaFIL7ibLU38ifwM6GWJE2adzU3nEe5KY9zXhQufkgTK5Q/viewanalytics){:.no-push-state}. -->   
  
  
 **Homework**:   
@@ -248,7 +248,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BGGN213_S18.pdf){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state},  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.  
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}. --> 
 
 
 **Homework**:   
@@ -275,7 +275,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1sFN7u8h2Sz0DwC-wscwJz3kkzf7OOP82oQR4jubvfZQ/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/lghN1iI2fjfwxpvq2){:.no-push-state}.      
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScapTSuiHiMvNHB-6MWV4PzmBAw2TyD4LaaibG1d7GcPCcA2A/viewanalytics){:.no-push-state}.  
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScapTSuiHiMvNHB-6MWV4PzmBAw2TyD4LaaibG1d7GcPCcA2A/viewanalytics){:.no-push-state}. --> 
  
  
 **Homework**:   
@@ -310,7 +310,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
 - Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}.  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd1UoERB-ADt_mUsWAnR50GDqV4BGm6cMvWUNH6fymwDRUvcg/viewanalytics){:.no-push-state}.        
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd1UoERB-ADt_mUsWAnR50GDqV4BGm6cMvWUNH6fymwDRUvcg/viewanalytics){:.no-push-state}.-->      
 
  
 
@@ -403,7 +403,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state},  [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
 - Optional backup files: [1]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [2]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [3]({{ site.baseurl }}/class-material/indinavir.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/UeIzhvgXFHmecVda2){:.no-push-state}  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd5-3_tu5m81Pkt1wyZSAK0wWMqRD3Hs0GttVyKh9Fa2Nkpag/viewanalytics){:.no-push-state}.
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd5-3_tu5m81Pkt1wyZSAK0wWMqRD3Hs0GttVyKh9Fa2Nkpag/viewanalytics){:.no-push-state}. -->
 
 
 <hr>
