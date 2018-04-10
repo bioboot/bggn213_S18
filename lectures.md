@@ -136,7 +136,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Handout: [Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BGGN213_S18-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/3IlHzdNfTLCDVlGN2){:.no-push-state}.   
-<!-- - Feedback: [Results](hhttps://docs.google.com/forms/d/1E9Mn3oaxzoojyFWO72l7Qn35nXBWAvenr9XUrwu45DE/edit#responses){:.no-push-state}. --> 
+- Feedback: [Results](https://docs.google.com/forms/d/1WgKvrP0u4djVdWg2YidTJ6qakoNf48x8JS0oJkgbXus/edit#responses){:.no-push-state}.
 
 
 **Homework**:   
@@ -168,10 +168,10 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BGGN213-small.pdf){:.no-push-state},    
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BGGN213_S18-lab.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://goo.gl/forms/6Kx5KWtFOyqJJyYB2){:.no-push-state}.   
+- Feedback: [Muddy Point Assessment](https://goo.gl/forms/OEUv7bzxLrf7go5n2){:.no-push-state}.   
 
 **Homework**:   
-- [DataCamp Assignments!](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.    
+- [DataCamp Sign Up!](https://www.datacamp.com/enterprise/bggn213-s18-foundations-of-bioinformatics){:.no-push-state}.    
   
 
 
