@@ -171,7 +171,9 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/OEUv7bzxLrf7go5n2){:.no-push-state}.   
 
 **Homework**:   
-- [DataCamp Sign Up!](https://www.datacamp.com/enterprise/bggn213-s18-foundations-of-bioinformatics){:.no-push-state}.    
+- [DataCamp Sign Up!](https://www.datacamp.com/enterprise/bggn213-s18-foundations-of-bioinformatics){:.no-push-state},  
+- [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
+    
   
 
 
