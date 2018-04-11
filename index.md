@@ -43,7 +43,7 @@ All announcements regarding the course will be by email to your UCSD address.
 ## Office hours & location:  
 Friday at 11am, location to be determined. For now email and we will make it happen.          
 
-From week 3 onward Barry will hold an additional informal office hour from 1-2pm at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
+From week 3 onward Barry will hold an additional informal office hour on Thursdays from 1-2pm at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
 
 If you can't make either of these please email for a time and we will make it happen. Note that is often a good idea to email so we know to expect you.    
 
