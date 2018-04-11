@@ -41,7 +41,7 @@ Lectures are on Wednesday and Friday at 1:00 - 4:00 pm in Warren Lecture Hall 20
 All announcements regarding the course will be by email to your UCSD address.  
 
 ## Office hours & location:  
-TBD.        
+Friday at 11am, location to be determined. For now email and we will make it happen.          
 
 From week 3 onward Barry will hold an additional informal office hour from 1-2pm at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
 
