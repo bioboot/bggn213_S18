@@ -168,7 +168,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BGGN213-small.pdf){:.no-push-state},    
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BGGN213_S18-lab.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://goo.gl/forms/OEUv7bzxLrf7go5n2){:.no-push-state}.   
+- Feedback: [Muddy Point Assessment](https://goo.gl/forms/OEUv7bzxLrf7go5n2){:.no-push-state},  
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdgLKs4cYRkoBLkaBlE51P7EaFFMeffWo9Nk2xRuu7GYrtJrg/viewanalytics){:.no-push-state}.    
 
 **Homework**:   
 - [DataCamp Sign Up!](https://www.datacamp.com/enterprise/bggn213-s18-foundations-of-bioinformatics){:.no-push-state},  
@@ -194,12 +195,12 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BGGN213-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section 1]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/yS24ed75GO7ipT903){:.no-push-state},  
+- Feedback: [Muddy point assessment](https://goo.gl/forms/yTML5FhdoRTymE0Z2){:.no-push-state},  
 <!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScfn86ieqHmHGzQs8qGOf_Y1tzB2_uRcaFDlBnxKYi3Tnzupg/viewanalytics?usp=form_confirm){:.no-push-state}. -->  
 
  
 **Homework**:   
-- [DataCamp Assignments!](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.    
+- [DataCamp Assignments!](https://www.datacamp.com/enterprise/bggn213-s18-foundations-of-bioinformatics/assignments){:.no-push-state}.    
 
 
 
@@ -228,7 +229,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  
  
 **Homework**:   
-- This units homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.   
+- This units homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/enterprise/bggn213-s18-foundations-of-bioinformatics/assignments){:.no-push-state}.   
  
 
 
@@ -256,7 +257,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 **Homework**:   
 - See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BGGN213_S18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Fri, 05/08**).    
-- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.   
+- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/bggn213-s18-foundations-of-bioinformatics/assignments){:.no-push-state}.   
  
 
 
@@ -283,7 +284,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  
 **Homework**:   
  See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BGGN213_S18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Fri, 05/08**).    
-- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/groups/introduction-to-bioinformatics-bimm-143/assignments){:.no-push-state}.   
+- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/bggn213-s18-foundations-of-bioinformatics/assignments){:.no-push-state}.   
  
 
 

@@ -3,7 +3,7 @@ layout: page
 title: R Language Basics (Part 1)
 ---
 
-**BIMM-143 Lecture 4:**   
+**BGGN-213 Lecture 4:**   
 Barry Grant &lt; <http://thegrantlab.org> &gt;
 {:.message}
 
