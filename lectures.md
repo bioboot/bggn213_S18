@@ -250,7 +250,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture6-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture6-BGGN213-small.pdf){:.no-push-state},
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BGGN213_S18.pdf){:.no-push-state},  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BGGN213_S18_lab.pdf){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state},  
 <!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}. --> 
 
