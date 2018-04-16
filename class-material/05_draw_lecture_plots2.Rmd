@@ -1,5 +1,5 @@
 ---
-title: "BGGN-213: Visualization with R Lecture #8"
+title: "BGGN-213: Visualization with R Lecture #5"
 output: github_document
 date: 2017-10-23   (14:04:51 PDT on Mon, Oct 23)
 ---
@@ -22,7 +22,7 @@ set.seed(7777)
 
 # About this document
 
-This document contains all the code used to generate the images for lecture number 8 of BGGN-213 ([Foundations of Bioinformatics](https://bioboot.github.io/bggn213_f17/)).  
+This document contains all the code used to generate the images for lecture number 5 of BGGN-213 ([Foundations of Bioinformatics](https://bioboot.github.io/bggn213_S18/)).  
 
 This document is not meant to stand alone -- it has very little explanatory text.  It is meant to be a reference for students who want to see how the plots for the presentation were made. 
 

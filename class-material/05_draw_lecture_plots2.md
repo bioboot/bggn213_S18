@@ -3,7 +3,7 @@ layout: page
 title: Visualization with R Lecture (Part 2)
 ---
 
-**BIMM-143 Lecture 5:**  
+**BGGN-213 Lecture 5:**  
 Barry Grant &lt; <http://thegrantlab.org> &gt;  
 {:.message}
 
