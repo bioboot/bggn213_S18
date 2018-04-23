@@ -225,8 +225,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BGGN213_lab.pdf){:.no-push-state},  
 - Example data for hands-on sections [bggn213_05_rstats.zip]({{ site.baseurl }}/class-material/bggn213_05_rstats.zip){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/vthRtrtHuMncRKF02){:.no-push-state},  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSe4OaFIL7ibLU38ifwM6GWJE2adzU3nEe5KY9zXhQufkgTK5Q/viewanalytics){:.no-push-state}. -->   
- 
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSfOCWjYByn0jNWAgr10UrIEBynq8iF4Q1jn3sooxFL-UccdXA/viewanalytics){:.no-push-state}.  
+
  
 **Homework**:   
 - This units homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/enterprise/bggn213-s18-foundations-of-bioinformatics/assignments){:.no-push-state}.   
@@ -252,7 +252,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BGGN213_S18_lab.pdf){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state},  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}. --> 
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.   
 
 
 **Homework**:   
@@ -276,10 +276,10 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BGGN213-small.pdf){:.no-push-state},  
-- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1sFN7u8h2Sz0DwC-wscwJz3kkzf7OOP82oQR4jubvfZQ/edit?usp=sharing){:.no-push-state},    
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1imJNIdxecj1UIOfoDNxBZGN-_ljJsf4PUoOL4LM_GPg/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/lghN1iI2fjfwxpvq2){:.no-push-state}.      
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScapTSuiHiMvNHB-6MWV4PzmBAw2TyD4LaaibG1d7GcPCcA2A/viewanalytics){:.no-push-state}. --> 
+- Feedback: [Muddy point assessment](https://goo.gl/forms/WxV3e0iKoSjQ9rWl2){:.no-push-state}.      
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSeCnGQoTANtPROUTsXJ3sYH3nrSsjur9zxKXKB9qrG7uWzaXQ/viewanalytics){:.no-push-state}. --> 
  
  
 **Homework**:   
@@ -313,7 +313,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/UK_food_pca//){:.no-push-state}  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
-- Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}.  
+- Feedback: [Muddy point assessment](https://goo.gl/forms/FC0VmpJNbiQlG3D13){:.no-push-state}.  
 <!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd1UoERB-ADt_mUsWAnR50GDqV4BGm6cMvWUNH6fymwDRUvcg/viewanalytics){:.no-push-state}.-->      
 
  
