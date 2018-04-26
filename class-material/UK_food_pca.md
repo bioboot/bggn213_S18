@@ -1,14 +1,14 @@
 ---
 layout: page
-title: BIMM-143, Lecture 08
+title: BGGN-213, Lecture 08
 ---
 
 Hands-on with PCA
 ================
 
-**BIMM-143 Lecture 08:**   
+**BGGN-213 Lecture 08:**   
 Barry Grant &lt; <http://thegrantlab.org> &gt;   
-Date: 2018-01-31   (22:01:12 PST on Wed, Jan 31)   
+Date: 2018-04-26   (15:10:33 PDT on Thu, Apr 26)   
 {:.message}
 
 
