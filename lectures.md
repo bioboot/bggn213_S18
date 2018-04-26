@@ -311,7 +311,7 @@ Practical considerations and best practices for the analysis of high dimensional
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture08-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture08-BGGN213-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/UK_food_pca//){:.no-push-state}  
-- Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
+- Data files: [expression.csv]({{ site.baseurl }}/class-material/expression.csv){:.no-push-state}, [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
 - Feedback: [Muddy point assessment](https://goo.gl/forms/FC0VmpJNbiQlG3D13){:.no-push-state}.  
 <!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd1UoERB-ADt_mUsWAnR50GDqV4BGm6cMvWUNH6fymwDRUvcg/viewanalytics){:.no-push-state}.-->      
