@@ -279,7 +279,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1imJNIdxecj1UIOfoDNxBZGN-_ljJsf4PUoOL4LM_GPg/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/WxV3e0iKoSjQ9rWl2){:.no-push-state}.      
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSeCnGQoTANtPROUTsXJ3sYH3nrSsjur9zxKXKB9qrG7uWzaXQ/viewanalytics){:.no-push-state}. --> 
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSeCnGQoTANtPROUTsXJ3sYH3nrSsjur9zxKXKB9qrG7uWzaXQ/viewanalytics){:.no-push-state}.  
  
  
 **Homework**:   
@@ -314,6 +314,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Data files: [expression.csv]({{ site.baseurl }}/class-material/expression.csv){:.no-push-state}, [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
 - Feedback: [Muddy point assessment](https://goo.gl/forms/FC0VmpJNbiQlG3D13){:.no-push-state}.  
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScI0dcWiXq3X3HEaKfAtZ0-F2PYE2s85JacERMAKJyJqDqCkg/viewanalytics){:.no-push-state}.  
       
 
  
@@ -333,7 +334,7 @@ Practical considerations and best practices for the analysis of high dimensional
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BGGN213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BGGN213_small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lecture9_lab/){:.no-push-state}  
+- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lecture9_lab.html){:.no-push-state}  
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}.   
 - Bio3D PCA App: [http://bio3d.ucsd.edu](http://bio3d.ucsd.edu){:.no-push-state}.   
 - Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}.   
