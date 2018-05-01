@@ -333,11 +333,11 @@ Practical considerations and best practices for the analysis of high dimensional
 - Be able to apply and test combinations of PCA, k-means and hierarchical clustering to high dimensional datasets and critically review results.
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BGGN213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BGGN213_small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BGGN213-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lecture9_lab.html){:.no-push-state}  
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}.   
 - Bio3D PCA App: [http://bio3d.ucsd.edu](http://bio3d.ucsd.edu){:.no-push-state}.   
-- Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}.   
+- Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLScI0dcWiXq3X3HEaKfAtZ0-F2PYE2s85JacERMAKJyJqDqCkg/viewform){:.no-push-state}.   
 
 
 <hr>
