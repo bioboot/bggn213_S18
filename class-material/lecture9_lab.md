@@ -1,15 +1,14 @@
 ---
 layout: page
-title: BIMM-143, Lecture 09
 ---
 
-Hands-on with unsupervised learning analysis of cancer cells
-================
+Hands-on with unsupervised learning analysis of cancer cells  
+================  
 
-**BIMM-143 Lecture 09:**   
-Barry Grant &lt; <http://thegrantlab.org> &gt;   
-Date: 2018-02-06   (00:56:42 PST on Tue, Feb 06)   
-{:.message}
+**Bioinformatics Lecture 09:**  
+Barry Grant &lt; <http://thegrantlab.org> &gt;  
+Date: 2018-04-30   (14:23:01 PDT on Mon, Apr 30)  
+{:.message}   
 
 
 
@@ -24,9 +23,9 @@ Values in this data set describe characteristics of the cell nuclei present in d
 
 ## Preparing the data
 
-Before we can begin our analysis we first have to download and import our data correctly into our R session.
+Before we can begin our analysis we first have to download and import our data correctly into our R session.  
 
-For this we can use the `read.csv()` function to read the CSV (comma-separated values) file containing the data from the URL: [https://bioboot.github.io/bimm143_W18/class-material/WisconsinCancer.csv](https://bioboot.github.io/bimm143_W18/class-material/WisconsinCancer.csv)
+For this we can use the `read.csv()` function to read the CSV (comma-separated values) file containing the data from the URL: [https://bioboot.github.io/bimm143_S18/class-material/WisconsinCancer.csv](https://bioboot.github.io/bimm143_S18/class-material/WisconsinCancer.csv)  
 
 Assign the result to an object called `wisc.df`.  
 
@@ -50,6 +49,7 @@ Examine your input data to ensure column names are set correctly. The `id` and `
 # Convert the features of the data: wisc.data
 wisc.data <- as.matrix( ___ )
 ```
+
 
 Assign the row names of `wisc.data` the values currently contained in the `id` column of `wisc.df`. While not strictly required, this will help you keep track of the different observations throughout the modeling process.
 
@@ -156,9 +156,9 @@ summary(wisc.pr)
 
 ## Interpreting PCA results
 
-Now you will use some visualizations to better understand your PCA model. You were introduced to one of these visualizations, the biplot, last day.
+Now you will use some visualizations to better understand your PCA model. A common visualization for PCA results is the so-called biplot.  
 
-You will often run into some common challenges with using biplots on real-world data containing a non-trivial number of observations and variables, then you'll look at some alternative visualizations. You are encouraged to experiment with additional visualizations before moving on to the next section
+However, you will often run into some common challenges with using biplots on real-world data containing a non-trivial number of observations and variables. Here we will need to look at some alternative visualizations. You are encouraged to experiment with additional visualizations before moving on to the next section
 
 
 Create a biplot of the `wisc.pr` using the `biplot()` function. 
@@ -171,9 +171,6 @@ biplot(wisc.pr)
 ```
 
 ![]({{ site.baseurl }}/class-material/lecture9_lab_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
-
-
-
 
 Rownames are used as the plotting character for biplots like this one which can make trends rather hard to see. Lets generate a more standard scatter plot of each observation along principal components 1 and 2 (i.e. a plot of PC1 vs PC2 available as the first two columns of `wisc.pr$x`) and color the points by the diagnosis (available in the `diagnosis` vector you created earlier).  
 
@@ -234,6 +231,16 @@ plot(pve, xlab = "Principal Component",
 ![]({{ site.baseurl }}/class-material/lecture9_lab_files/figure-html/var-1.png)<!-- -->
 
 
+```r
+# Alternative scree plot of the same data, note data driven y-axis
+barplot(pve, ylab = "Precent of Variance Explained",
+     names.arg=paste0("PC",1:length(pve)), las=2, axes = FALSE)
+axis(2, at=pve, labels=round(pve,2)*100 )
+```
+
+![]({{ site.baseurl }}/class-material/lecture9_lab_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+
+
 Using the `cumsum()` function, create a plot of cumulative proportion of variance explained.
 
 
@@ -257,7 +264,7 @@ plot( ___ , xlab = "Principal Component",
 
 Use the `par()` function to create a side by side plot (i.e. 1 row 2 column arrangement) of these two graphs.
 
-![]({{ site.baseurl }}/class-material/lecture9_lab_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![]({{ site.baseurl }}/class-material/lecture9_lab_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
 
 ## Communicating PCA results
@@ -401,10 +408,10 @@ table(___, ___)
 ```
 ##                     
 ## wisc.hclust.clusters   1   2
-##                    1  17 160
-##                    2   0   7
-##                    3 363  20
-##                    4   0   2
+##                    1 160  17
+##                    2   7   0
+##                    3  20 363
+##                    4   2   0
 ```
 
 Looking at the second table you generated, it looks like clusters 1, 2, and 4 from the hierarchical clustering model can be interpreted as the cluster 1 equivalent from the k-means algorithm, and cluster 3 can be interpreted as the cluster 2 equivalent.
@@ -473,8 +480,8 @@ table(___, diagnosis)
 ```
 ##    diagnosis
 ##       0   1
-##   1 343  37
-##   2  14 175
+##   1  14 175
+##   2 343  37
 ```
 
 ```
@@ -496,7 +503,7 @@ Specificity relates to a test's ability to correctly reject healthy patients wit
 - **Q16.** Which of your analysis procedures resulted in a clustering model with the best specificity? How about sensitivity?
 
 
-# Section 7. 
+# Section 7. OPTIONAL
 
 ## PCA of protein structure data
 
@@ -505,17 +512,6 @@ Visit the Bio3D-web PCA app  [http://bio3d.ucsd.edu](http://bio3d.ucsd.edu) and 
 
 
 # About this document
-
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
-
-Try executing any code chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
-
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
-
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
-
 
 Here we use the `sessionInfo()` function to report on our R systems setup at the time of document execution. 
 
@@ -527,7 +523,7 @@ sessionInfo()
 ```
 ## R version 3.4.1 (2017-06-30)
 ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
-## Running under: macOS Sierra 10.12.6
+## Running under: macOS High Sierra 10.13.4
 ## 
 ## Matrix products: default
 ## BLAS: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRblas.0.dylib
@@ -541,8 +537,8 @@ sessionInfo()
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] compiler_3.4.1  backports_1.1.2 magrittr_1.5    rprojroot_1.3-2
-##  [5] tools_3.4.1     htmltools_0.3.6 yaml_2.1.16     Rcpp_0.12.14   
-##  [9] stringi_1.1.6   rmarkdown_1.8   knitr_1.18      stringr_1.2.0  
+##  [5] tools_3.4.1     htmltools_0.3.6 yaml_2.1.18     Rcpp_0.12.16   
+##  [9] stringi_1.1.7   rmarkdown_1.9   knitr_1.20      stringr_1.3.0  
 ## [13] digest_0.6.14   evaluate_0.10.1
 ```
 

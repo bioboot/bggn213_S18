@@ -314,7 +314,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Data files: [expression.csv]({{ site.baseurl }}/class-material/expression.csv){:.no-push-state}, [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
 - Feedback: [Muddy point assessment](https://goo.gl/forms/FC0VmpJNbiQlG3D13){:.no-push-state}.  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd1UoERB-ADt_mUsWAnR50GDqV4BGm6cMvWUNH6fymwDRUvcg/viewanalytics){:.no-push-state}.-->      
+      
 
  
 
@@ -407,7 +407,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state},  [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
 - Optional backup files: [1]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [2]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [3]({{ site.baseurl }}/class-material/indinavir.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/UeIzhvgXFHmecVda2){:.no-push-state}  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd5-3_tu5m81Pkt1wyZSAK0wWMqRD3Hs0GttVyKh9Fa2Nkpag/viewanalytics){:.no-push-state}. -->
+
 
 
 <hr>
