@@ -346,13 +346,13 @@ Practical considerations and best practices for the analysis of high dimensional
 
 
 ## 10: (**Project:**) Find a Gene Assignment Part 1        
-The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:.no-push-state} is a required assignment for BIMM-143. The objective with this assignment is for you to demonstrate your grasp of database searching, sequence analysis, structure analysis and the R environment that we have covered to date in class.
+The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:.no-push-state} is a required assignment for BGGN-213. The objective with this assignment is for you to demonstrate your grasp of database searching, sequence analysis, structure analysis and the R environment that we have covered to date in class.
 
 You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.  
  
-Your responses to questions Q1-Q4 are due at the beginning of class **Thursday February 22nd** (05/22/18).   
+Your responses to questions Q1-Q4 are due at the beginning of class **Friday May 18th** (05/18/18).   
 
-The complete assignment, including responses to all questions, is due at the beginning of class **Thursday March 13th** (03/13/18).  
+The complete assignment, including responses to all questions, is due at the beginning of class **Wed June 6th** (06/06/18).  
 
 Late responses will not be accepted under any circumstances.  
 
