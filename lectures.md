@@ -340,6 +340,8 @@ Practical considerations and best practices for the analysis of high dimensional
 - Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLScI0dcWiXq3X3HEaKfAtZ0-F2PYE2s85JacERMAKJyJqDqCkg/viewform){:.no-push-state}.   
 - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScI0dcWiXq3X3HEaKfAtZ0-F2PYE2s85JacERMAKJyJqDqCkg/viewanalytics){:.no-push-state}.   
 
+- Bonus: [Kevin’s StackExchange Link on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}.   
+
 
 <hr>
 <a name="10"></a>
