@@ -338,6 +338,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Data files: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.   
 - Bio3D PCA App: [http://bio3d.ucsd.edu](http://bio3d.ucsd.edu){:.no-push-state}.   
 - Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLScI0dcWiXq3X3HEaKfAtZ0-F2PYE2s85JacERMAKJyJqDqCkg/viewform){:.no-push-state}.   
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScI0dcWiXq3X3HEaKfAtZ0-F2PYE2s85JacERMAKJyJqDqCkg/viewanalytics){:.no-push-state}.   
 
 
 <hr>
@@ -352,7 +353,7 @@ You may wish to consult the scoring rubric at the end of the above linked projec
  
 Your responses to questions Q1-Q4 are due at the beginning of class **Friday May 18th** (05/18/18).   
 
-The complete assignment, including responses to all questions, is due at the beginning of class **Wed June 6th** (06/06/18).  
+The complete assignment, including responses to all questions, is due at the beginning of class **Wed June 1th** (06/01/18).  
 
 Late responses will not be accepted under any circumstances.  
 
