@@ -364,6 +364,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BGGN213-small.pdf){:.no-push-state},  
 - Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state}  
+- Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLSeNF6De9ASCthrrDXs4TFGjGSSHuNq3t8UXngv2Oj6VO_dZfQ/viewform){:.no-push-state}.   
+
 
 
 
