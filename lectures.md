@@ -384,11 +384,11 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213_small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BGGN213_S18.pdf){:.no-push-state}  
-- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/elweVfSycVIt8Ecd2){:.no-push-state}.  
-
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213-small.pdf){:.no-push-state},  
+- Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BGGN213.pdf){:.no-push-state}  
+- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state},  
+- **OPTIONAL**: Bio3D development version for [mac]({{ site.baseurl }}/class-material/bio3d_2.3-4.9-mac.tgz){:.no-push-state} and [windows]({{ site.baseurl }}/class-material/bio3d_2.3-4.9-win.zip){:.no-push-state},    
+- Feedback: [Muddy point assessment](https://goo.gl/forms/yAJ6LKBdv5k2wGTD3){:.no-push-state}.  
 
 
 
