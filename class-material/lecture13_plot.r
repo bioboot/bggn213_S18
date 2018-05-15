@@ -1,17 +1,20 @@
 #' ---
+#' title: Section 4. Plotting Expression values
+#' author: 
 #' output: github_document
 #' ---
 
-#' # Plotting Expresion Values
-#' 
+
 #' This is a complement to the hands on session for lecture 13.
-#' First we need to load our expresion data from a file (that you downloaded) or from online.
+#' First we need to load our expression data from a file (that you downloaded):
 
 #expr <- read.table("rs8067378_ENSG00000172057.6.txt")
-url <- "https://bioboot.github.io/bggn213_S18/class-material/rs8067378_ENSG00000172057.6.txt"
+
+#' Or we can read from online.
+url <- "https://bioboot.github.io/biggn213_S18/class-material/rs8067378_ENSG00000172057.6.txt"
 expr <- read.table(url)
 
-#' Check the genotype sample size and overal summary stats 
+#' Check the genotype sample size and overall summary stats 
 summary(expr)
 
 #' Lets break it down to the three genotypes by 
@@ -36,7 +39,6 @@ p
 
 #' We could also use the **ggplot2** package to make our plots
 
-
 library(ggplot2)
 
 ## Boxplot
@@ -44,3 +46,9 @@ ggplot(expr, aes(geno, exp)) + geom_boxplot()
 
 ## Histogram of the exp column with ggplot2
 ggplot(expr, aes(exp, fill = geno)) + geom_density(alpha = 0.2)
+
+# Boxplot with the data shown
+ggplot(expr, aes(geno, exp, fill=geno)) + 
+  geom_boxplot(notch=TRUE, outlier.shape = NA) + 
+  geom_jitter(shape=16, position=position_jitter(0.2), alpha=0.4)
+
