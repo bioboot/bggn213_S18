@@ -479,9 +479,9 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Be able to extract, explore, visualize and export results.
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14_BGGN213_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14_BGGN213_S18-small.pdf){:.no-push-state}.
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14_BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14_BGGN213-small.pdf){:.no-push-state}.
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state} instructions.
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_S18-lab/){:.no-push-state}
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_W18-lab/){:.no-push-state}
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.
 - Muddy point assessment
 
