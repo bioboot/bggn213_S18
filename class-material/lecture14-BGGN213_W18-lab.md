@@ -8,7 +8,7 @@ title: BGGN-213, Lecture 14
 
 **BGGN-213 Lecture 14:**  
 Barry Grant &lt; <http://thegrantlab.org> &gt;  
-2018-02-20   (16:28:37 PST on Tue, Feb 20)  
+2018-05-17   (16:08:17 PDT on Thu, May 17)  
 {:.message}
 
 Overiview
