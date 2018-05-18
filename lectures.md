@@ -482,8 +482,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14_BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14_BGGN213-small.pdf){:.no-push-state}.
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state} instructions.
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_W18-lab/){:.no-push-state}
-- Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.
-- Muddy point assessment
+- Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state},
+- Feedback: [Muddy point assessment](https://goo.gl/forms/wHRNkmNAqwZ3un8g2){:.no-push-state}.  
 
 
 **Readings**:
