@@ -1,4 +1,4 @@
-# Visualizing BLAST score distributions in RStudio
+# Visualizing BLAST score distributions in RStudio running on a remote server
 
 If we want to take a look at the results of
 [computing orthologs between mouse and cow]({{ site.baseurl }}/class-material/05_blast-02/),
@@ -214,4 +214,4 @@ work.
   all predicted/inferred genes.) What does this suggest about that
   "quadrant" of the data?
 
-  # We will learn all about R in the next class!
+  

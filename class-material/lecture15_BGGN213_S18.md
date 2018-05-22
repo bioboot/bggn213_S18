@@ -49,7 +49,6 @@ Section 1. Differential Expression Analysis
 You can download the count data and associated metadata from here: [GSE37704\_featurecounts.csv](https://bioboot.github.io/bimm143_W18/class-material/GSE37704_featurecounts.csv) and [GSE37704\_metadata.csv](https://bioboot.github.io/bimm143_W18/class-material/GSE37704_metadata.csv). This is similar to our starting point for the last class where we used DESeq2 for the first time. We will use it again today!
 
 ``` r
-#library(dplyr)
 library(DESeq2)
 ```
 
