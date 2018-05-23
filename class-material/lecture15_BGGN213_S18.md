@@ -916,6 +916,76 @@ To perform Gene Set GO Enrichment online go to the website <http://www.geneontol
 > **Question**: What pathway has the most significant “Entities p-value”? Do the most significant pathways listed match your previous KEGG results? What factors could cause differences between the two methods?  
 
 
+
+Bounus: Gene clustering, heatmaps and PCA
+----------------------
+
+Many statistical methods for analysis of multidimensional data, for example *clustering* and *principal components analysis* (PCA), work best for data that generally has the same range of variance at different ranges of the mean values.  
+
+However, for counts from RNA-seq the expected variance grows with the mean. For example, if one performs PCA or clustering directly on a matrix of counts then the results will be heavely influenced by the genes with the highest counts (because they show the largest absolute differences between samples).  To address this problem the *DESeq2* package offers the **vst()** function (that stands for Variance Stabilizing Transformation) that stabilizes the variance of count data across different mean values. We will use **vst()** here as input for our clustering.
+
+
+```r
+vsd <- vst(dds, blind = FALSE)
+```
+
+Since gene clustering is only really relevant for genes that actually carry a signal, one usually would only cluster a subset of the most highly variable genes. Here, for demonstration purposes we select the 20 genes with the highest variance across samples.
+
+
+
+```r
+library("genefilter")
+
+#row.variance <- apply(assay(vsd), 1, var)
+row.variance <- rowVars(assay(vsd))
+ord.variance <- order( row.variance, decreasing = TRUE) 
+
+# Focus on top 20 most variable genes for demo purposes
+mat  <- assay(vsd)[ ord.variance[1:20], ]
+```
+
+The heatmap becomes more interesting if we do not look at absolute expression strength but rather at the amount by which each gene deviates in a specific sample from the gene’s average across all samples. To do this we center each genes’ values across samples by subtracting their mean values, and then plot the heatmap (figure below). 
+
+
+```r
+library(pheatmap)
+mat.center  <- mat - rowMeans(mat)
+pheatmap(mat.center)
+```
+
+![]({{ site.baseurl }}/class-material//unnamed-chunk-27-1.png)<!-- -->
+
+
+> **Side-note:** We can also do PCA with our `vsd` object.
+
+
+```r
+pcaData <- plotPCA(vsd, intgroup="condition", returnData = TRUE)
+pcaData
+```
+
+```
+##                 PC1        PC2         group     condition      name
+## SRR493366 -12.74667  0.3046597 control_sirna control_sirna SRR493366
+## SRR493367 -13.04690 -0.0278821 control_sirna control_sirna SRR493367
+## SRR493368 -13.28760 -0.3782467 control_sirna control_sirna SRR493368
+## SRR493369  13.38297 -0.1131647      hoxa1_kd      hoxa1_kd SRR493369
+## SRR493370  11.48330  1.1139575      hoxa1_kd      hoxa1_kd SRR493370
+## SRR493371  14.21490 -0.8993238      hoxa1_kd      hoxa1_kd SRR493371
+```
+
+
+```r
+library(ggplot2)
+
+ggplot(pcaData, aes(x = PC1, y = PC2, color = condition) ) +
+  geom_point(size =3) 
+```
+
+![]({{ site.baseurl }}/class-material//unnamed-chunk-28-1.png)
+
+
+
 Session Information
 -------------------
 
