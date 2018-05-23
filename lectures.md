@@ -40,7 +40,7 @@ All Lectures are Wed/Fri 1:00-4:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([M
 |   |   |   |
 | 15 | Wed, 05/23 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
 |   |   |   |
-| 16 | Fri, 05/25 | [**Essential statistics for bioinformatics**](#16) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications.  | 
+| 16 | Fri, 05/25 | [**Essential UNIX for bioinformatics**](#16) <br> Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.  | 
 |   |   |   |
 | 17 | Wed, 05/30 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. | 
 |   |   |   |
@@ -505,14 +505,14 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Material**:   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture15_BGGN213_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture15_BGGN213_S18-small.pdf){:.no-push-state}.  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture15_BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture15_BGGN213-small.pdf){:.no-push-state}.  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture15_BGGN213_S18/){:.no-push-state}  
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
 - Muddy point assessment
  
 
-**Homework**:
-[**Quiz Assessment**](https://goo.gl/forms/8xKqSGba3BAmuGx02){:.no-push-state} 
+**R Knoweledge Check:**:
+[**Quiz Assessment**](https://goo.gl/forms/lYhWNJ0Dhc6lieXh1){:.no-push-state} 
 
 **Readings**:    
  - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.  
@@ -525,18 +525,27 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <a name="16"></a>
 <br>
 
-## 16: Essential statistics for bioinformatics 
-**Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask! Extensive R examples and applications.
+## 16: Essential UNIX for bioinformatics 
+**Topics**: Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.
 
-**Material**:   
-- Lecture Slides: [PDF]({{ site.baseurl }}/class-material/lecture16_BGGN213_S18-large.pdf){:.no-push-state}.  
-- Data files: 
-  - [RNA-seq_excitatory_neurons_rep1_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_excitatory_neurons_rep1_TPM_by_names.tsv){:.no-push-state}, 
-  - [RNA-seq_excitatory_neurons_rep2_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_excitatory_neurons_rep2_TPM_by_names.tsv){:.no-push-state}, 
-  - [RNA-seq_PV_neurons_rep1_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_PV_neurons_rep1_TPM_by_names.tsv){:.no-push-state}, 
-  - [RNA-seq_PV_neurons_rep2_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_PV_neurons_rep2_TPM_by_names.tsv){:.no-push-state}.   
-- Feedback: [Muddy point assessment](https://goo.gl/forms/YBPM7MoMTqKNnLoV2){:.no-push-state}.  
 
+**Goal:**  
+- Understand why we use UNIX for bioinformatics
+- Use UNIX command-line tools for file system navigation and text file manipulation.
+- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.
+- Be able to connect to remote servers from the command line.
+- Use existing programs at the UNIX command line to analyze bioinformatics data.  
+- Understand IO Redirection, Streams and pipes.
+- Understand best practices for organizing computational projects.  
+
+
+**Material**:  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16-BGGN213-small.pdf){:.no-push-state},  
+- Hands-on section worksheet
+  * [Running command-line BLAST]({{ site.baseurl }}/class-material/05_blast-01/){:.no-push-state},
+  * [Running large and long command line jobs]({{ site.baseurl }}/class-material/05_blast-02/){:.no-push-state},
+  * [Visualizing results with R/RStudio running on a remote server]({{ site.baseurl }}/class-material/05_blast-03/){:.no-push-state}.
+- [Muddy point assessment](https://goo.gl/forms/KHUlvRoEgJlx1JnD2){:.no-push-state}.  
 
 
 
