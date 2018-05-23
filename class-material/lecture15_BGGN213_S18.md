@@ -138,7 +138,7 @@ head(countData)
     ## ENSG00000187583        64
     ## ENSG00000187642        16
 
-Nice now lets setup the DESeqDataSet object required for the **DESeq()** function and then run the DESeq pipeline. This is again similar to our last days hands-on session.
+Nice now lets setup the `DESeqDataSet` object required for the **DESeq()** function and then run the DESeq pipeline. This is again similar to our last days hands-on session.
 
 ``` r
 dds = DESeqDataSetFromMatrix(countData=countData,
@@ -159,43 +159,282 @@ dds = DESeq(dds)
 
     ## fitting model and testing
 
-``` r
-dds
+
+A new `DESeqDataSet` is returned that contains all the results (and the input `DESeqDataSet` parameters) within it.  
+
+Extracting out the tables of results we actually want from this object can be a bit tricky. The next section describes one common way to do this. 
+
+### Extracting our results table
+Calling the *DESeq* packages **results()** function on our `DESeqDataSet` without any arguments will extract the estimated log2 fold changes and p values like so:
+
+
+```r
+res <- results(dds)
+res
 ```
 
-    ## class: DESeqDataSet 
-    ## dim: 15280 6 
-    ## metadata(1): version
-    ## assays(3): counts mu cooks
-    ## rownames(15280): ENSG00000279457 ENSG00000187634 ...
-    ##   ENSG00000276345 ENSG00000271254
-    ## rowData names(21): baseMean baseVar ... deviance maxCooks
-    ## colnames(6): SRR493366 SRR493367 ... SRR493370 SRR493371
-    ## colData names(2): condition sizeFactor
-
-Next, get results for the HoxA1 knockdown versus control siRNA (remember we labeled these as "**hoxa1\_kd**" and "**control\_sirna**" in our original `colData` metaFile input to DESeq, you can check this above and by running `resultsNames(dds)` command).
-
-``` r
-res = results(dds, contrast=c("condition", "hoxa1_kd", "control_sirna"))
+```
+## log2 fold change (MLE): condition hoxa1 kd vs control sirna 
+## Wald test p-value: condition hoxa1 kd vs control sirna 
+## DataFrame with 15280 rows and 6 columns
+##                   baseMean log2FoldChange      lfcSE        stat
+##                  <numeric>      <numeric>  <numeric>   <numeric>
+## ENSG00000279457   29.91358     0.17927483 0.32459294   0.5523066
+## ENSG00000187634  183.22965     0.42644724 0.14017817   3.0421802
+## ENSG00000188976 1651.18808    -0.69272061 0.05484412 -12.6307173
+## ENSG00000187961  209.63794     0.72975918 0.13178350   5.5375609
+## ENSG00000187583   47.25512     0.04055411 0.27169055   0.1492658
+## ...                    ...            ...        ...         ...
+## ENSG00000273748  35.302652      0.6743994  0.3034582   2.2223801
+## ENSG00000278817   2.423024     -0.3889516  1.1295943  -0.3443286
+## ENSG00000278384   1.101796      0.3328870  1.6590966   0.2006435
+## ENSG00000276345  73.644956     -0.3561673  0.2075751  -1.7158482
+## ENSG00000271254 181.595903     -0.6096640  0.1412340  -4.3166951
+##                       pvalue         padj
+##                    <numeric>    <numeric>
+## ENSG00000279457 5.807383e-01 6.846746e-01
+## ENSG00000187634 2.348712e-03 5.109223e-03
+## ENSG00000188976 1.429690e-36 1.745815e-35
+## ENSG00000187961 3.067131e-08 1.109758e-07
+## ENSG00000187583 8.813439e-01 9.191354e-01
+## ...                      ...          ...
+## ENSG00000273748 2.625763e-02 4.756160e-02
+## ENSG00000278817 7.305992e-01 8.086868e-01
+## ENSG00000278384 8.409773e-01 8.927559e-01
+## ENSG00000276345 8.618983e-02 1.389975e-01
+## ENSG00000271254 1.583827e-05 4.470014e-05
 ```
 
-Let's reorder these results by p-value and call summary() on the results object to get a sense of how many genes are up or down-regulated at the default FDR of 0.1.
+The returned `res` object is not a standard R data.frame but one that carries extra meatadata on the meaning of the columns:
 
-``` r
-res = res[order(res$pvalue),]
+
+```r
+mcols(res, use.names = TRUE)
+```
+
+```
+## DataFrame with 6 rows and 2 columns
+##                        type
+##                 <character>
+## baseMean       intermediate
+## log2FoldChange      results
+## lfcSE               results
+## stat                results
+## pvalue              results
+## padj                results
+##                                                                description
+##                                                                <character>
+## baseMean                         mean of normalized counts for all samples
+## log2FoldChange log2 fold change (MLE): condition hoxa1 kd vs control sirna
+## lfcSE                  standard error: condition hoxa1 kd vs control sirna
+## stat                   Wald statistic: condition hoxa1 kd vs control sirna
+## pvalue              Wald test p-value: condition hoxa1 kd vs control sirna
+## padj                                                  BH adjusted p-values
+```
+
+The column `log2FoldChange` is the effect size estimate. It tells us how much the gene's expression seems to have changed due to treatment with dexamethasone in comparison to untreated samples.  This value is reported on a logarithmic scale to base 2: for example, a log2 fold change of 1.5 means that the gene's expression is increased by a multiplicative factor of \(2^{1.5} \approx 2.82\).
+
+*DESeq2* performs for each gene a *hypothesis test* to see whether evidence is sufficient to decide against the *null hypothesis* that there is zero effect of the treatment on the gene and that the observed difference between treatment and
+control was merely caused by experimental variability (i.e., the type of variability that you can expect between different
+samples in the same treatment group). As usual in statistics, the result of this test is reported as a *p* value, and it is found in the column `pvalue`. Remember that a *p* value indicates the probability that a fold change as strong as the observed one, or even stronger, would be seen under the situation described by the null hypothesis.  
+
+We can also summarize the results with the *DESeq2* specific version of the **summary()** function. This will report some additional useful information: 
+
+
+```r
 summary(res)
 ```
 
-    ## 
-    ## out of 15280 with nonzero total read count
-    ## adjusted p-value < 0.1
-    ## LFC > 0 (up)     : 4352, 28% 
-    ## LFC < 0 (down)   : 4400, 29% 
-    ## outliers [1]     : 0, 0% 
-    ## low counts [2]   : 590, 3.9% 
-    ## (mean count < 1)
-    ## [1] see 'cooksCutoff' argument of ?results
-    ## [2] see 'independentFiltering' argument of ?results
+```
+## 
+## out of 15280 with nonzero total read count
+## adjusted p-value < 0.1
+## LFC > 0 (up)     : 4352, 28% 
+## LFC < 0 (down)   : 4400, 29% 
+## outliers [1]     : 0, 0% 
+## low counts [2]   : 590, 3.9% 
+## (mean count < 1)
+## [1] see 'cooksCutoff' argument of ?results
+## [2] see 'independentFiltering' argument of ?results
+```
+
+Note that there are many many genes with differential expression reported above. Let's therefore be more strict about which set of genes are considered 'significant'. There are two main ways we can do this:
+
+* Lower the false discovery rate threshold (i.e. the threshold on the adjusted p-value (`padj`) in the results table)
+* Raise the log2 fold change threshold from 0 to a higher value.
+
+
+
+> **Q.** In the summary of our results printed above (and by default) the FDR level is set to 10% (i.e. adjusted p-value < 0.1) and the log2 fold change threshold is set to 0. Use the `alpha` and `lfcThreshold` input arguments to the **results()** function to change these to an FDR of 5% and a log2 fold change threshold of 2. Then use the **summary()** function to find out how many genes are up and down at these thresholds.  
+
+
+
+
+```
+## 
+## out of 15280 with nonzero total read count
+## adjusted p-value < 0.05
+## LFC > 0 (up)     : 99, 0.65% 
+## LFC < 0 (down)   : 134, 0.88% 
+## outliers [1]     : 0, 0% 
+## low counts [2]   : 1482, 9.7% 
+## (mean count < 2)
+## [1] see 'cooksCutoff' argument of ?results
+## [2] see 'independentFiltering' argument of ?results
+```
+
+You could also use the ever useful **table()** function on your output of the **results()** function like so:
+
+
+```r
+table(res$padj < 0.05)
+```
+
+```
+## 
+## FALSE  TRUE 
+## 13565   233
+```
+
+
+```r
+table(res$log2FoldChange > 2)
+```
+
+```
+## 
+## FALSE  TRUE 
+## 14723   557
+```
+
+Then combining to determine the number of genes that meet both the *p* value and log2 fold change thresholds (*UP* genes: 99; and *DOWN* genes: 134): 
+
+
+```r
+table( res$padj < 0.05, res$log2FoldChange > 2)
+```
+
+```
+##        
+##         FALSE  TRUE
+##   FALSE 13292   273
+##   TRUE    134    99
+```
+
+
+> **Side-Note:** In high-throughput biology, we are careful to not use the *p* values directly as evidence against the null, but to correct for **multiple testing**.  
+>
+> What would happen if we were to simply threshold the *p* values at a low value, say 0.05? There are 326 genes with a *p* value below 0.05 among the 15280 genes for which the test succeeded in reporting a *p* value:
+
+
+```r
+table(res$pvalue < 0.05)
+```
+
+```
+## 
+## FALSE  TRUE 
+## 14954   326
+```
+
+> *DESeq2* uses the Benjamini-Hochberg (BH) adjustment as implemented in the base R **p.adjust()** function; in brief, this method calculates for each gene an adjusted *p* value that answers the following question: if one called significant all genes with an adjusted *p* value less than or equal to this gene's adjusted *p* value threshold, what would be the fraction of false positives (the *false discovery rate*, FDR) among them, in the sense of the calculation outlined above? These values, called the BH-adjusted *p* values, are given in the column `padj` of the `res` object.  
+>
+> The FDR is a useful statistic for many high-throughput experiments, as we are often interested in reporting or focusing on a set of interesting genes, and we would like to put an upper bound on the percent of false positives in this set.  
+>
+> Hence, if we consider a fraction of 5% false positives acceptable, we can consider all genes with an adjusted *p* value below 5% = 0.05 as significant. How many such genes are there?  
+
+
+```r
+table(res$padj < 0.05)
+```
+
+```
+## 
+## FALSE  TRUE 
+## 13565   233
+```
+
+
+We can now subset the results table to extract the genes with adjusted *p* value less than 0.05 and then sort them by their log2 fold change estimate to get the significant genes with the strongest down-regulation:
+
+
+```r
+# Make a new results object 'resSig' with only significant genes
+resSig <- subset(res, padj < 0.05)
+
+# Print the first 10 strongest DOWN genes
+ord.down <- order(resSig$log2FoldChange)
+head(resSig[ ord.down, ], 10)
+```
+
+```
+## log2 fold change (MLE): condition hoxa1 kd vs control sirna 
+## Wald test p-value: condition hoxa1 kd vs control sirna 
+## DataFrame with 10 rows and 6 columns
+##                  baseMean log2FoldChange     lfcSE       stat       pvalue
+##                 <numeric>      <numeric> <numeric>  <numeric>    <numeric>
+## ENSG00000152779  20.47585      -4.159774 0.6372338  -3.389295 7.007247e-04
+## ENSG00000139269  34.67082      -3.707145 0.4489612  -3.802434 1.432814e-04
+## ENSG00000100526 104.74410      -3.670758 0.2538387  -6.581965 4.642702e-11
+## ENSG00000162520 248.71515      -3.522675 0.1645404  -9.254111 2.160200e-20
+## ENSG00000117650 126.83830      -3.436330 0.2201916  -6.523092 6.887258e-11
+## ENSG00000183287 603.48721      -3.436112 0.1129688 -12.712465 5.041941e-37
+## ENSG00000013293 186.24913      -3.419521 0.1869698  -7.592247 3.144050e-14
+## ENSG00000183763  46.40721      -3.398924 0.3586012  -3.901059 9.577266e-05
+## ENSG00000157456 291.43640      -3.380308 0.1501209  -9.194645 3.762361e-20
+## ENSG00000171320  49.47850      -3.368015 0.3462612  -3.950819 7.788429e-05
+##                         padj
+##                    <numeric>
+## ENSG00000152779 4.259295e-02
+## ENSG00000139269 9.643890e-03
+## ENSG00000100526 6.536735e-09
+## ENSG00000162520 6.931729e-18
+## ENSG00000117650 9.599029e-09
+## ENSG00000183287 3.864928e-34
+## ENSG00000013293 5.633974e-12
+## ENSG00000183763 6.955111e-03
+## ENSG00000157456 1.128545e-17
+## ENSG00000171320 5.746778e-03
+```
+
+> **Q.** Do the same as above but print out the top 10 strongest up-regulated genes. HINT: see the help for the **order()** function to see how to return the decreasing ordered indices you will want for accesing your `resSig` result.  
+
+
+
+```
+## log2 fold change (MLE): condition hoxa1 kd vs control sirna 
+## Wald test p-value: condition hoxa1 kd vs control sirna 
+## DataFrame with 10 rows and 6 columns
+##                   baseMean log2FoldChange     lfcSE      stat       pvalue
+##                  <numeric>      <numeric> <numeric> <numeric>    <numeric>
+## ENSG00000128052  158.24955       8.822086 1.0347214  6.593162 4.305562e-11
+## ENSG00000141668   43.94156       8.820638 1.2040490  5.664751 1.472384e-08
+## ENSG00000004799   97.26023       8.117454 1.0373919  5.896956 3.702688e-09
+## ENSG00000109321 3907.19054       7.479166 0.2880675 19.020423 1.155483e-80
+## ENSG00000162892   25.27893       7.052106 1.2210031  4.137669 3.508527e-05
+## ENSG00000073756 1357.62707       6.337747 0.3399843 12.758671 2.789195e-37
+## ENSG00000125845 1172.23868       5.525337 0.2077712 16.967397 1.431378e-64
+## ENSG00000163739   89.96993       5.356228 0.8223964  4.081034 4.483576e-05
+## ENSG00000163734   33.68060       5.218578 0.6984361  4.608263 4.060459e-06
+## ENSG00000072041 2369.28278       5.097353 0.1868148 16.579804 9.754639e-62
+##                         padj
+##                    <numeric>
+## ENSG00000128052 6.124551e-09
+## ENSG00000141668 1.751376e-06
+## ENSG00000004799 4.561579e-07
+## ENSG00000109321 3.188670e-77
+## ENSG00000162892 2.719700e-03
+## ENSG00000073756 2.263842e-34
+## ENSG00000125845 2.821451e-61
+## ENSG00000163739 3.399142e-03
+## ENSG00000163734 3.591424e-04
+## ENSG00000072041 1.495495e-58
+```
+
+
+
+
+## Annotating our genes and mapping to Entrez IDs
 
 Since we mapped and counted against the Ensembl annotation, our results only have information about Ensembl gene IDs. However, our pathway analysis downstream will use KEGG pathways, and genes in KEGG pathways are annotated with Entrez gene IDs. So lets add them as we did the last day.
 
