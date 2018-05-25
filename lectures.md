@@ -542,9 +542,9 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16-BGGN213-small.pdf){:.no-push-state},  
 - Hands-on section worksheet
-  * [Running command-line BLAST]({{ site.baseurl }}/class-material/05_blast-01/){:.no-push-state},
-  * [Running large and long command line jobs]({{ site.baseurl }}/class-material/05_blast-02/){:.no-push-state},
-  * [Visualizing results with R/RStudio running on a remote server]({{ site.baseurl }}/class-material/05_blast-03/){:.no-push-state}.
+  * [Using remote UNIX machines (Part I)]({{ site.baseurl }}/class-material/16_blast-01/){:.no-push-state},
+  * [Using remote UNIX machines (Part II)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
+  * [Using remote UNIX machines (Part III)]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.
 - [Muddy point assessment](https://goo.gl/forms/KHUlvRoEgJlx1JnD2){:.no-push-state}.  
 
 
