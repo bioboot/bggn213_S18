@@ -540,11 +540,12 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16-BGGN213-small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BGGN213-small.pdf){:.no-push-state},  
 - Hands-on section worksheet
   * [Using remote UNIX machines (Part I)]({{ site.baseurl }}/class-material/16_blast-01/){:.no-push-state},
   * [Using remote UNIX machines (Part II)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
-  * [Using remote UNIX machines (Part III)]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.
+  * [Using remote UNIX machines (Part III)]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
+- Example data set [bggn213_01_unix.zip]({{ site.baseurl }}/class-material/bggn213_01_unix.zip){:.no-push-state},  
 - [Muddy point assessment](https://goo.gl/forms/KHUlvRoEgJlx1JnD2){:.no-push-state}.  
 
 
