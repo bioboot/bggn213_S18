@@ -546,9 +546,13 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
   * [Using remote UNIX machines (Part II)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
   * [Using remote UNIX machines (Part III)]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
 - Example data set [bggn213_01_unix.zip]({{ site.baseurl }}/class-material/bggn213_01_unix.zip){:.no-push-state},  
-- [Muddy point assessment](https://goo.gl/forms/KHUlvRoEgJlx1JnD2){:.no-push-state}.  
+- [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
 
 
+## IPs    
+- 129.114.17.233
+- 149.165.168.89
+- To Be Updated!
 
 
 <hr>
