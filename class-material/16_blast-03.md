@@ -91,7 +91,10 @@ Download the precomputed data, and give it a better name; you could also
 use your precomputed shmlast results --
 
 ```
-download.file("https://bioboot.github.io/bggn213_S18/class-material/mouse.1.rna.fna.gz.x.cow.faa.crbl.csv.gz", "shmlast.csv")
+#download.file("https://bioboot.github.io/bggn213_S18/class-material/mouse.1.rna.fna.gz.x.cow.faa.crbl.csv.gz", "shmlast.csv")
+
+download.file("https://raw.githubusercontent.com/ngs-docs/angus/17a0ba3b1d915de90a5b8bd1fbc1027eba47baf8/_static/shmlast/mouse.1.rna.fna.gz.x.cow.faa.crbl.csv.gz", "shmlast.csv")
+
 ```
 
 Next, read the object in to R, and name it something that you might remember
