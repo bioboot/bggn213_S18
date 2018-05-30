@@ -2,10 +2,10 @@ Metagenomics co-occurence networks
 ================
 Barry Grant (<bjgrant@ucsd.edu>)
 
-**BGGN-213 Lecture 17:**
-Barry Grant &lt; <http://thegrantlab.org> &gt;
-Date: 2018-05-30 (10:36:01 PDT on Wed, May 30)
-{:.message}
+**BGGN-213 Lecture 17:**  
+Barry Grant &lt; <http://thegrantlab.org> &gt;  
+Date: 2018-05-30 (10:36:01 PDT on Wed, May 30)  
+{:.message} 
 
 Overview
 ========
@@ -111,7 +111,7 @@ saveImage(cwd,
 knitr::include_graphics("./demo.png")
 ```
 
-<img src="./demo.png" width="655" />
+<img src="{{ site.baseurl }}/class-material/./demo.png" width="655" />
 
 ### Switch Styles
 
@@ -134,7 +134,7 @@ saveImage(cwd,
 knitr::include_graphics("./demo_marquee.png")
 ```
 
-<img src="./demo_marquee.png" width="655" />
+<img src="{{ site.baseurl }}/class-material/./demo_marquee.png" width="655" />
 
 You can find out what other styles are available and try a couple:
 
@@ -225,7 +225,7 @@ Our current graph is a little too dense in terms of node labels etc. to have a u
 plot(g)
 ```
 
-![](lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-12-1.png)
 
 This is a hot-mess! Lets turn of the blue text labels
 
@@ -233,7 +233,7 @@ This is a hot-mess! Lets turn of the blue text labels
 plot(g, vertex.label=NA)
 ```
 
-![](lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-13-1.png)
+![]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-13-1.png)
 
 The nodes/vertex are too big. Lets make them smaller...
 
@@ -241,7 +241,7 @@ The nodes/vertex are too big. Lets make them smaller...
 plot(g, vertex.size=3, vertex.label=NA)
 ```
 
-![](lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-14-1.png)
 
 To find out more about igraph network plot options see <http://igraph.org/r/doc/plot.common.html>. Note that we can tune lots of plot attributes (see the help page `?igraph.plotting` for details). Here we just turned down our vertex size from the default value of 15 and turned of our vertex labels.
 
@@ -266,7 +266,7 @@ ggraph(g, layout = 'auto') +
 
     ## Using `nicely` as default layout
 
-![](lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-15-1.png)
+![]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-15-1.png)
 
 Network querys
 --------------
@@ -337,7 +337,7 @@ cb
 plot(cb, y=g, vertex.label=NA,  vertex.size=3)
 ```
 
-![](lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-18-1.png)
+![]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-18-1.png)
 
 You can extract a cluster/community membership vector for further inspection with the **membership()** function:
 
@@ -361,7 +361,7 @@ d <- degree(g)
 hist(d, breaks=30, col="lightblue", main ="Node Degree Distribution")
 ```
 
-![](lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-20-1.png)
+![]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-20-1.png)
 
 For the **degree\_distribution()** function a numeric vector of the same length as the maximum degree plus one is returned. The first element is the relative frequency zero degree vertices, the second vertices with degree one, etc.
 
@@ -369,7 +369,7 @@ For the **degree\_distribution()** function a numeric vector of the same length 
 plot( degree_distribution(g), type="h" )
 ```
 
-![](lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-21-1.png)
+![]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-21-1.png)
 
 Centrality analysis
 -------------------
@@ -398,7 +398,7 @@ v.size <- BBmisc::normalize(pr$vector, range=c(2,20), method="range")
 plot(g, vertex.size=v.size, vertex.label=NA)
 ```
 
-![](lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-23-1.png)
+![]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-23-1.png)
 
 One of the simplest centrality scores is of course degree that we calculated previously and stored as the object `d`. Lets plot this one out also
 
@@ -407,7 +407,7 @@ v.size <- BBmisc::normalize(d, range=c(2,20), method="range")
 plot(g, vertex.size=v.size, vertex.label=NA)
 ```
 
-![](lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-24-1.png)
+![]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-24-1.png)
 
 Another very common centrality score is betweenness. The vertex and edge betweenness are (roughly) defined by the number of geodesics (shortest paths) going through a vertex or an edge.
 
@@ -417,7 +417,7 @@ v.size <- BBmisc::normalize(b, range=c(2,20), method="range")
 plot(g, vertex.size=v.size, vertex.label=NA)
 ```
 
-![](lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-25-1.png)
+![]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_files/figure-markdown_github/unnamed-chunk-25-1.png)
 
 Read taxonomic classification for network annotation
 ====================================================
@@ -613,7 +613,7 @@ layoutNetwork(cw)
 fitContent(cw)
 ```
 
-<img src="co-occur0.png" width="655" />
+<img src="{{ site.baseurl }}/class-material/co-occur0.png" width="655" />
 
 Our network display of our data is now there in Cytoscape. It is just not very pretty yet! Note that you may have to zoom in to see anything in the Cytoscape window. We will work on this in the next few sections.
 
@@ -661,7 +661,7 @@ library(knitr)
 include_graphics("./net2.png")
 ```
 
-<img src="./net2.png" width="655" />
+<img src="{{ site.baseurl }}/class-material/./net2.png" width="655" />
 
 Set node shape to reflect virus or prokaryote
 ---------------------------------------------
@@ -687,7 +687,7 @@ displayGraph(cw)
 fitContent(cw)
 ```
 
-<img src="co-occur1.png" width="655" />
+<img src="{{ site.baseurl }}/class-material/co-occur1.png" width="655" />
 
 Colour edges of phage nodes
 ---------------------------
@@ -725,7 +725,7 @@ saveImage(cw,
 knitr::include_graphics("co-occur2.png")
 ```
 
-<img src="co-occur2.png" width="655" />
+<img src="{{ site.baseurl }}/class-material/co-occur2.png" width="655" />
 
 Use a network layout to minimize the overlap of nodes.
 ------------------------------------------------------
@@ -785,7 +785,7 @@ layoutNetwork(cw, layout.name = "force-directed")
 fitContent(cw)
 ```
 
-<img src="co-occur3.png" width="655" />
+<img src="{{ site.baseurl }}/class-material/co-occur3.png" width="655" />
 
 Look at network properties
 ==========================
@@ -842,65 +842,9 @@ layoutNetwork(cw2,
               "force-directed")
 ```
 
-<img src="co-occur_degree.png" width="655" />
+<img src="{{ site.baseurl }}/class-material/co-occur_degree.png" width="655" />
 
-Select an interesting node and make a subnetwork from it
-========================================================
 
-The visualization displays several different areas where there are highly connected nodes that are in the same bacterial phylum. We will select one of these nodes, all of the nodes connected to this node, its first neighbors, and then the nodes connected to the first neighbors. One node that is in a group of highly connected nodes is the cyanobacterial node "GQ377772". We will select it and its first and second neighbors and then make a new network from these nodes and their connections.
-
-``` r
-# Selects the node named "GQ377772"
-selectNodes(cw2, "GQ377772") 
-getSelectedNodes(cw2)
-```
-
-    ## [1] "GQ377772"
-
-``` r
-selectFirstNeighborsOfSelectedNodes(cw2)
-getSelectedNodes(cw2)
-```
-
-    ##  [1] "GQ377772" "ph_1392"  "ph_1808"  "ph_3164"  "ph_3901"  "ph_407"  
-    ##  [7] "ph_4377"  "ph_553"   "ph_765"   "ph_7661"
-
-Now select the neighbors of node "GQ377772".
-
-``` r
-selectFirstNeighborsOfSelectedNodes(cw2)
-getSelectedNodes(cw2)
-```
-
-    ##  [1] "AACY020207233" "AY663941"      "AY663999"      "AY664012"     
-    ##  [5] "AY664000"      "EF574484"      "EU802893"      "GQ377772"     
-    ##  [9] "GU119298"      "GU061586"      "GU941055"      "ph_1392"      
-    ## [13] "ph_1808"       "ph_3164"       "ph_3901"       "ph_407"       
-    ## [17] "ph_4377"       "ph_553"        "ph_765"        "ph_7661"
-
-Create sub-network from these nodes and their edges.
-
-``` r
-newnet <- createWindowFromSelection(cw2,
-                                    "subnet",
-                                    "TRUE")
-```
-
-    ## [1] sending node attribute "Kingdom"
-    ## [1] sending node attribute "Phylum"
-    ## [1] sending node attribute "Class"
-    ## [1] sending node attribute "phage_affiliation"
-    ## [1] sending node attribute "Tax_order"
-    ## [1] sending node attribute "Tax_subfamily"
-    ## [1] sending node attribute "degree"
-    ## [1] sending node attribute "label"
-    ## [1] sending edge attribute "Weight"
-
-``` r
-layoutNetwork(newnet, "force-directed")
-```
-
-<img src="co-occur_subnet.png" width="655" />
 
 Publishing your network to NDEx-
 --------------------------------
@@ -913,7 +857,7 @@ Visit the NDEx homepage <http://www.ndexbio.org> and create a new account for yo
 
 Back in Cytoscape with your final (for now) network displayed. Click on **File** &gt; **Export** &gt; **Network to NDXe...**. On the window that appears make sure you are logged in by entering your NDEx username and password (see red box number 1 in figure below). Then fill in as much annotation as you can add. It is important that you make your network Public (see red box number 2 in figure). When you are ready click the **Save** button.
 
-<img src="NDEx_1.png" width="2000" />
+<img src="{{ site.baseurl }}/class-material/NDEx_1.png" width="2000" />
 
 Now return to your web browser and on the NDEx home page click your username in the top tool-bar and find your network under the **My Networks** tab. You can share the URL of your network with others you work with.
 
