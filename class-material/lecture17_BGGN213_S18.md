@@ -869,6 +869,8 @@ Some networks you might like to explore on NDEx include the [Signor](http://www.
 
 Remind Barry to give a tour of NDEx features and the associated R package that will allow you to interface with NDEx from within R itself (including uploading and downloading networks etc.).
 
+Here is the link to [my NDEx network for this class](http://www.ndexbio.org/#/network/ea67cdd8-642c-11e8-a4bf-0ac135e8bacf).
+
 Conclusion
 ----------
 
