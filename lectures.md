@@ -570,7 +570,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - 149.165.168.125
 - 149.165.169.128
 - 129.114.16.76
-- To be updated (B.G.)
+- 129.114.16.84
+- 129.114.16.83 (B.G.)
 
 
 <hr>
