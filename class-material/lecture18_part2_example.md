@@ -1,19 +1,19 @@
 ---
 layout: page
-title: BIMM-143, Lecture 18 (Part 2)
+title: BGGN-213, Lecture 18 (Part 2)
 ---
 
 
 Lecture18 Investigating cancer genomics datasets (Part 2)
 ================
 
-**BIMM-143 Lecture 18:**  
+**BGGN-213 Lecture 18:**  
 Barry Grant &lt; <http://thegrantlab.org> &gt;  
 Date: 2018-03-07 (15:24:21 PST on Wed, Mar 07)  
 {:.message}  
 
 
-This is a complement to the second hands-on session for [lecture 18 of BIMM-143 W18](https://bioboot.github.io/bimm143_W18/lectures/#18). You can find the Rmarkdown document that generated this page [here](https://bioboot.github.io/bimm143_W18/class-material/lecture18_part2_example.Rmd). In the following sections we walk through the analysis steps providing periodic output examples.
+This is a complement to the second hands-on session for [lecture 18 of BGGN-213 S18](https://bioboot.github.io/bggn213_S18/lectures/#18). You can find the Rmarkdown document that generated this page [here](https://bioboot.github.io/bimm143_W18/class-material/lecture18_part2_example.Rmd). In the following sections we walk through the analysis steps providing periodic output examples.
 
 Identifing sites of mutation
 ----------------------------
