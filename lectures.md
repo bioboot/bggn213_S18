@@ -633,25 +633,15 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
   
 Hand-out: [**Exam guidlines, topics, and example questions**]({{ site.baseurl }}/class-material/BGGN213_exam_guidlines.pdf){:.no-push-state}
 
-Ether-pad: <!-- [**Feedback**](https://etherpad.net/p/BGGN213){:.no-push-state} -->
+Ether-pad: [**Feedback**](https://etherpad.net/p/bggn213_S18){:.no-push-state}.
   
   
 <hr>
 <a name="20"></a>
 <br>
 
-## 20: Final Exam  
+## 20: Bonus: Bioinformatics & Genomics in industry  
 
-This open-book, open-notes 150-minute test consists of 35 questions.  The number of points for each question is indicated in green font at the beginning of each question. There are 80 total points on offer.  
+A set of short open ended guest lectures from leading genomic scientists at Illumina Inc., Synthetic Genomics Inc., and the La Jolla Institute for Allergy and Immunology. Come prepared for networking and to have your questions about industry careers in Genomics answered. 
 
-
-Please remember to:
-
-- Read all questions carefully before starting.
-- Put your name, UCSD email and PID number on your test.
-- Write all your answers on the space provided in the exam paper.
-- Remember that concise answers are preferable to wordy ones.
-- Clearly state any simplifying assumptions you make in solving a problem.
-- No copies of this exam are to be removed from the class-room.
-- No talking or communication (electronic to otherwise) with your fellow students once the exam has begun.
-- **Good luck!**  
+  
